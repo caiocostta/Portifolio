@@ -32,6 +32,9 @@ header{
     background-color: #062F3E;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+header .container-fluid{
+    max-width: 80%;
+}
 .text-green{
     color: #94FC13;
 }
@@ -45,10 +48,6 @@ header{
 }
 .text-white:hover{
     color: #94FC13 !important;
-}
-
-@keyframes headerVisibility {
-    
 }
 
 .btn-outline-info{
