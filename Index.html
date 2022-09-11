@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caio Costa</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=0" />
+        <link href="Assets/css/Style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="d-flex align-items-center">
+            <nav class="container navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-title fs-3 me-2 text-green" href="#">‹CS/›</a>
+                  <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobre">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#experiencia">Experiência</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#projetos">Projetos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <section class="d-flex flex-column">
+            <div style="height: 100vh;" class="bg-light d-flex align-items-lg-start align-items-center">
+                <article class="container d-flex flex-1 flex-column mt-4 mt-lg-0 mt-md-0 apresentacao">
+                    <div class="d-flex flex-wrap">
+                        <div style="width: 50%;" class="d-flex flex-1 ms-lg-3 ms-sm-0 mt-lg-0 mt-sm-3 align-items-lg-start align-items-center flex-column justify-content-center">
+                            <hgroup>
+                                <h2 class="fw-normal">Olá, eu sou</h2>
+                                <h1 class="text-green fw-normal">Caio dos Santos Costa</h1>
+                                <h2 class="fw-normal">Desenvolvedor Web</h2>
+                            </hgroup>
+                            <div class="mt-4">
+                                <a href="https://www.linkedin.com/in/caio-dos-santos-costa-800141195/"><button type="button" class="btn btn-outline-info me-2"> <i class="bi bi-linkedin"></i> Linkedin </button></a>
+                                <a href="https://github.com/caiocostta"><button type="button" class="btn btn-outline-success ms-2"><i class="bi bi-github"></i> Github</button></a>
+                            </div>
+                            </div>
+                            <div style="width: 50%;" class="d-none flex-1 d-xxl-flex d-xl-flex d-lg-flex d-md-flex align-items-center justify-content-center">
+                                <img style="width: 100%;" alt="Homem digitando" src="media/programador.gif"/>
+                            </div>
+                    </div>
+                    <i id="btnScroll" class="bi bi-chevron-double-down mt-4 m-auto"></i>
+                </article>
+            </div>
+            <div id="sobre" class="bg-dark pt-4 pb-4">
+                <article class="container d-flex flex-1 sobre-mim mt-4 mb-4">
+                    <div class="d-none d-lg-flex d-md-flex flex-1 d-flex align-items-center">
+                        <figure >
+                            <img width="100%" src="media/perfil.jpeg">
+                        </figure>
+                    </div>
+                    <div style="flex: 3;" class="ms-lg-4 ms-md-4">
+                        <h2 class="text-green">Sobre Mim</h2>
+                        <p class="mt-4">
+                            Tenho 19 anos, atualmente estou cursando Sistemas de Informação na Universidade Nove de Julho (modalidade EAD), 
+                            estou também em um estágio na área de monitoração de servidores, porém eu estou com o objetivo de migrar para a 
+                            área de desenvolvimento.
+                        </p>
+                        <p>    
+                            Comecei na área de desenvolvimento tem cerca de um ano, até o momento me especializei mais no Front-end, porém 
+                            pretendo ser Full-Stack, tenho alguns projetos feitos e atualmente comecei a me desenvolver melhor no back-end para 
+                            conseguir finalmente a minha tão esperada vaga de desenvolvedor.
+                        </p>
+                        <div class="mt-4">
+                            <a href="Media/Curriculo Caio.pdf"><button type="button" class="btn btn-outline-info me-2"> <i class="bi bi-file-earmark-medical"></i> Currículo </button></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div id="experiencia" class="bg-light p-4">
+                <article class="container d-flex flex-lg-row flex-column align-items-lg-start align-items-center experiencia">
+                    <div class="d-flex flex-column justify-content-center">
+                        <h2 class="text-green text-lg-start text-center ms-0 m-4">EXPERIÊNCIAS</h2>
+                        <nav class="mt-0 ms-0 m-4">
+                            <ul class="navbar-nav">
+                                <li id="exp01" class="d-flex nav-item align-items-center justify-content-center active">Estágio Command Center</li>
+                                <li id="exp02" class="d-flex nav-item align-items-center justify-content-center">Estágio Service Desk</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div style="width: 100%;" id="expDesc01" class="d-flex flex-column justify-content-center m-4">
+                        <div style="width: 100%;" class="d-flex flex-wrap justify-content-between">
+                            <h2>Estágio Command Center</h2>
+                            <p class="mt-2">Fev 2022 - Atual</p>
+                        </div>
+                        <div>
+                            <p class="ms-0 m-4 text-green">Claranet technology</p>
+                            <ul class="ms-0 m-4">
+                                <li>Análise de alertas gerados pelo monitoramento de servidores;</li>
+                                <li>Análise de reincidência dos alertas;</li>
+                                <li>Prover suporte técnico nível 1 em SO e conectividade;</li>
+                                <li>Elaboração/envio de relatórios de recursos via ferramenta (s);</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="width: 100%;" id="expDesc02" class="d-none d-flex flex-column justify-content-center m-4">
+                        <div style="width: 100%;" class="d-flex flex-wrap justify-content-between">
+                            <h2>Estágio de Infraestrutura (Service Desk)</h2>
+                            <p class="mt-2">Ago 2020 - Jan 2022</p>
+                        </div>
+                        <div>
+                            <p class="ms-0 m-4 text-green">Canon do Brasil</p>
+                            <ul class="ms-0 m-4">
+                                <li>Atendimento e Suporte nível I e II;</li>
+                                <li>Suporte em Hardware e Software;</li>
+                                <li>Suporte em Redes;</li>
+                                <li>Suporte em projetos de Infraestrutura em geral;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div id="projetos" class="bg-dark p-4">
+                <article class="container projetos">
+                    <h2 class="text-green">Projetos</h2>
+                    <div class="d-flex flex-wrap justify-content-around">
+                        <div>
+                            <div class="ms-0 m-4">
+                                <a href="#" class="d-flex justify-content-center align-items-center bg-red">
+                                    <img style="width: 100px;" src="./Media/book.png" alt="livro">
+                                </a>
+                                <h5 class="mt-3 fw-semibold">Feedbook</h5>
+                                <p>
+                                    Projeto de site feito para que o usuário pesquise sobre seus livros favoritos e consiga dar um feedback sobre. 
+                                    O Projeto utiliza Angular, consultando dados da API Google Books API.
+                                </p>
+                                <p>
+                                    Projeto ainda em andamento, será inserido um banco de Dados para salvar os dados dosusuários e seus feedbacks
+                                </p>
+                                <p style="text-indent: 0ch;">
+                                    <small style="width: 380px;" class="text-green">
+                                        Tecnologias utilizadas no projeto: HTML5, CSS3 e Angular
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="ms-0 m-4">
+                                <a href="#" class="d-flex justify-content-center align-items-center bg-blue">
+                                    <div class="blocked d-flex justify-content-center align-items-center">
+                                        <h2 class="text-green text-center">Em manutenção</h2>
+                                    </div>
+                                    <img style="width: 100px;" src="./Media/phone.png" alt="livro">
+                                </a>
+                                <h5 class="mt-3 fw-semibold">Operadoras API</h5>
+                                <p> 
+                                    Projeto onde foi construída uma API que contém os dados de contato das operadoras de internet dos clientes, 
+                                    pois na empresa havia uma necessidade de ter os dados centralizados para contato. A API funciona como uma agenda
+                                    de contatos, também sendo feito um Front-end para Acessar os dados da API.
+                                </p>
+                                <p>
+                                    Esta API foi feita utilizando .Net, EF Core e inicialmente SQLite que foi migrado para MySQL. Podendo ser consumida
+                                    com Get, Post, Put e Delete, pois desta forma os novos clientes poderiam estar registrando suas operadoras ou 
+                                    escolhendo elas dentro da lista das operadoras já registradas em nosso banco de dados.
+                                </p>
+                                <p style="text-indent: 0ch;">
+                                    <small style="width: 380px;" class="text-green">
+                                        Tecnologias utilizadas no projeto: HTML5, CSS3, Angular, SqlServer, EF Core e .Net Core
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <footer style="height: 85px;" class="d-flex flex-column align-items-center justify-content-center">
+            <p class="mb-0">Desenvolvido por Caio Costa ©</p>
+            <small>Osasco - 2022</small>
+        </footer>
+    </body>
+    <script src="./Assets/js/Main.js"></script>
+</html>
