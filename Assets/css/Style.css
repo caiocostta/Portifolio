@@ -49,6 +49,9 @@ header .container-fluid{
 .text-white:hover{
     color: #94FC13 !important;
 }
+.show{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
 
 .btn-outline-info{
     text-decoration: none;
