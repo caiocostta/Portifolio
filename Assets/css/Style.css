@@ -8,17 +8,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background-color: #032D3C;
-    color: #fff;
+    background-color: #032D3C !important;
+    color: #fff !important;
 }
 .flex-1{
     flex: 1;
 }
-.bg-light{
+.bg-sea{
     background-color: #032D3C !important;
     color: #fff;
 }
-.bg-dark{
+.bg-ocean{
     background-color: rgba(0, 0, 0, 0.05) !important;
 }
 .bg-red{
